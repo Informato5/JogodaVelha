@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="jogovelha.informatos.com.br.jogodavelha.MainActivity">
+
+
+    <EditText
+        android:id="@+id/edtJogador1"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:ems="10"
+        android:hint="Jogador 1"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtJogador2"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+
+        android:ems="10"
+        android:hint="Jogador 2"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnJogar"
+        android:layout_width="149dp"
+        android:layout_height="62dp"
+        android:text="Jogar" />
+
+
+</LinearLayout>
